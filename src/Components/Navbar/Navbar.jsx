@@ -25,8 +25,10 @@ const Navbar = () => {
               alt="Mayoor International School Logo"
               className="h-10 w-10 sm:h-16 sm:w-16 object-contain"
             />
-            <span className="text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-primary whitespace-nowrap">
-              Mayoor International School
+            <span className="text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-primary whitespace-normal min-[498px]:whitespace-nowrap leading-tight">
+              Mayoor <br className="block min-[498px]:hidden" />
+              International <br className="block min-[498px]:hidden" />
+              School
             </span>
           </div>
 
