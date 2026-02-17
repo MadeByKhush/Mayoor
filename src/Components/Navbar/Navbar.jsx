@@ -25,7 +25,7 @@ const Navbar = () => {
               alt="Mayoor International School Logo"
               className="h-10 w-10 sm:h-16 sm:w-16 object-contain"
             />
-            <span className="text-sm sm:text-lg md:text-xl lg:text-2xl font-bold text-primary whitespace-nowrap">
+            <span className="text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-primary whitespace-nowrap">
               Mayoor International School
             </span>
           </div>
@@ -46,7 +46,7 @@ const Navbar = () => {
           {/* CTA Button */}
           <button
             onClick={() => setIsModalOpen(true)}
-            className="bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-green-800 transition cursor-pointer"
+            className="bg-primary text-white px-3 py-1.5 text-xs sm:px-4 sm:py-2 sm:text-sm md:px-6 md:py-2.5 md:text-base font-bold rounded-full shadow-md hover:bg-green-800 hover:shadow-lg hover:scale-105 active:scale-95 transition-all duration-300 cursor-pointer whitespace-nowrap"
           >
             Admissions Open
           </button>

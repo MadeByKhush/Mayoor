@@ -56,7 +56,7 @@ export default function AdminLayout({ children }) {
       </aside>
 
       {/* MAIN CONTENT */}
-      <main className="flex-1 p-4 md:p-8">
+      <main className="flex-1 p-2 md:p-8">
         {children}
       </main>
 
