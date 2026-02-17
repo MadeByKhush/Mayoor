@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* ============================
+   SWIPER DOTS (MOBILE ONLY)
+   ============================ */
+.events-slider .swiper-pagination {
+  bottom: 5px !important;
+}
+
+.events-slider .swiper-pagination-bullet {
+  background: #1A7F42 !important;
+  opacity: 0.6;
+}
+
+.events-slider .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+/* Desktop me dots hide */
+@media (min-width: 1024px) {
+  .events-slider .swiper-pagination {
+    display: none !important;
+  }
+}
+
+
+/* ============================
+   EVENT CARD EQUAL HEIGHT FIX
+   ============================ */
+.event-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.event-card-desc {
+  flex-grow: 1; /* desc jitna bhi ho, height equal rahe */
+}
+
+
+/* ============================
+   WIDER CONTAINER
+   ============================ */
+.wide-container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}

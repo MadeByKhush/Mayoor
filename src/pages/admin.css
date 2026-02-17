@@ -1,0 +1,12 @@
+/* Basic admin dashboard styling */ 
+.admin-page { max-width: 1000px; margin: 24px auto; padding: 0 16px; }
+.admin-header { display:flex; justify-content:space-between; margin-bottom:20px; }
+.admin-card { width:320px; margin:80px auto; padding:20px; background:#fff; border-radius:8px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.08); }
+.admin-card input { width:100%; margin:8px 0; padding:8px; }
+.admin-error { color:red; }
+.admin-main { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+.admin-form, .admin-list { background:white; padding:16px; border-radius:8px; }
+.btn-primary { background:green; color:white; padding:6px 12px; border:none; border-radius:6px; }
+.btn-cancel { background:#ccc; padding:6px 12px; border:none; border-radius:6px; }
+.btn-danger { background:red; color:white; padding:6px 12px; border:none; border-radius:6px; }
