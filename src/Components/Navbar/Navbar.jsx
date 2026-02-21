@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../assets/logo-upscaled.png";
+import logo from "../../assets/logo-upscaled.webp";
 import AdmissionModal from "../AdmissionModal/AdmissionModal";
 
 const Navbar = () => {
