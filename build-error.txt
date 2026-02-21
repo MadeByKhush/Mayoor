@@ -1,0 +1,17 @@
+
+> mayoor@0.0.0 build
+> vite build
+
+[36mvite v7.2.2 [32mbuilding client environment for production...[36m[39m
+transforming...
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+/*! 🌼 daisyUI 5.5.5 */
+[32m✓[39m 74 modules transformed.
+[31m✗[39m Build failed in 2.31s
+[31merror during build:
+[31mCould not resolve "../../assets/Herobuilding.avif" from "src/Components/Hero/Hero.jsx"[31m
+file: [36mD:/vercel miss/Mayoor/src/Components/Hero/Hero.jsx[31m
+    at getRollupError (file:///D:/vercel%20miss/Mayoor/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+    at error (file:///D:/vercel%20miss/Mayoor/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+    at ModuleLoader.handleInvalidResolvedId (file:///D:/vercel%20miss/Mayoor/node_modules/rollup/dist/es/shared/node-entry.js:21576:24)
+    at file:///D:/vercel%20miss/Mayoor/node_modules/rollup/dist/es/shared/node-entry.js:21536:26[39m

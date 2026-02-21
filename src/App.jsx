@@ -5,6 +5,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import About from "./Components/About/About";
+import VirtualTour from "./Components/VirtualTour/VirtualTour";
 import Curriculum from "./Components/Curriculum/Curriculum";
 import Events from "./Components/RecentEvents/Events";
 import Facilities from "./Components/Facilities/Facilities";
@@ -40,6 +41,7 @@ function App() {
                 <About />
                 <Curriculum />
                 <Events />
+                <VirtualTour />
                 <Facilities />
                 <AdmissionCTA />
               </main>

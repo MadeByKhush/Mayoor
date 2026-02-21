@@ -4,6 +4,7 @@ import image from "../../assets/Herobuilding.webp";
 import { FadeUp, SlideRight } from "../../utils/motion";
 
 const Hero = () => {
+
     return (
         <section className="relative h-[660px] overflow-hidden">
 
@@ -49,10 +50,18 @@ const Hero = () => {
                         >
                             Explore Programs
                         </a>
-
                         <a
-                            className="bg-white text-primary px-4 py-2 md:px-8 md:py-3 rounded-full text-sm md:text-lg font-semibold hover:bg-gray-200 transition-transform transform hover:scale-105 whitespace-nowrap"
-                            href="#"
+                            className="bg-white text-primary px-4 py-2 md:px-8 md:py-3 rounded-full text-sm md:text-lg font-semibold hover:bg-gray-200 transition-transform transform hover:scale-105 whitespace-nowrap cursor-pointer"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                const section = document.getElementById('virtual-tour');
+                                if (section) {
+                                    section.scrollIntoView({ behavior: 'smooth' });
+                                    setTimeout(() => {
+                                        window.dispatchEvent(new Event('openVirtualTourModal'));
+                                    }, 600);
+                                }
+                            }}
                         >
                             Virtual Tour
                         </a>

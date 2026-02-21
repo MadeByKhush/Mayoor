@@ -34,7 +34,7 @@ const Curriculum = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-50 relative" id="academics">
+    <section className="py-20 bg-gray-50 relative " id="academics">
       <Divider />
       <div className="container mx-auto px-6 mb-12">
 
