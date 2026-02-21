@@ -237,6 +237,8 @@ export default function AdminEvents() {
                                 <div className="md:h-48 h-40 bg-gray-200 overflow-hidden relative">
                                     <img
                                         src={event.image}
+                                        loading="lazy"
+                                        decoding="async"
                                         alt={event.title}
                                         className="w-full h-full object-cover"
                                         onError={(e) => { e.target.src = 'https://placehold.co/600x400?text=No+Image' }}

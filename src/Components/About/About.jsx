@@ -55,6 +55,8 @@ const About = () => {
           <div className="rounded-lg overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
             <img
               src={image}
+              loading="lazy"
+              decoding="async"
               alt="Students collaborating in a classroom"
               className="w-full h-full object-cover scale-[1.30] -translate-y-[25px]"
             />

@@ -5,6 +5,8 @@ const FacilityCard = ({ image, title, desc }) => {
     <div className="bg-card-light rounded-lg overflow-hidden shadow-lg transition-transform hover:-translate-y-2">
       <img
         alt={title}
+        loading="lazy"
+        decoding="async"
         className="scale-105 md:scale-100 w-full h-56 object-cover"
         src={image}
       />

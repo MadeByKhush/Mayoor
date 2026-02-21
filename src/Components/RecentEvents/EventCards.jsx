@@ -5,6 +5,8 @@ const EventCard = ({ image, title, desc }) => {
     <div className="bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden group">
       <img
         alt={title}
+        loading="lazy"
+        decoding="async"
         className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
         src={image}
       />

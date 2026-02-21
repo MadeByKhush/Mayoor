@@ -214,7 +214,7 @@ export default function Banners() {
 
           {preview && (
             <div className="mt-4 relative">
-              <img src={preview} className="w-full rounded-xl shadow object-cover h-48" alt="Preview" />
+              <img src={preview} loading="lazy" decoding="async" className="w-full rounded-xl shadow object-cover h-48" alt="Preview" />
               <button
                 type="button"
                 onClick={() => {
@@ -253,6 +253,8 @@ export default function Banners() {
                   >
                     <img
                       src={b.image_url}
+                      loading="lazy"
+                      decoding="async"
                       className="w-full sm:w-32 h-20 object-cover rounded-lg shadow"
                       alt="Banner"
                       onError={(e) => { e.target.src = 'https://placehold.co/600x400?text=No+Image' }}

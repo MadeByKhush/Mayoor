@@ -4,6 +4,8 @@ const CurriculumCard = ({ image, title, desc }) => {
       <div className="relative mb-4 z-10">
         <img
           src={image}
+          loading="lazy"
+          decoding="async"
           alt={title}
           className="h-40 w-40 object-cover rounded-full  border-4 border-amber-300 
           shadow-lg transition-transform duration-300 group-hover:scale-110"
