@@ -20,7 +20,7 @@ const About = () => {
             </p>
 
             <h2 className="text-4xl font-bold mt-2 text-text-light-primary">
-              Welcome to <span className="text-primary font-bold">Community</span> of Learners
+              About <span className="text-primary font-bold">Mayoor International School</span>
             </h2>
 
             <p className="mt-4 text-text-light-secondary leading-relaxed">
@@ -57,7 +57,7 @@ const About = () => {
               src={image}
               loading="lazy"
               decoding="async"
-              alt="Students collaborating in a classroom"
+              alt="Students at Mayoor International School"
               className="w-full h-full object-cover scale-[1.30] -translate-y-[25px]"
             />
           </div>

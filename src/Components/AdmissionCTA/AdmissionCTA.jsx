@@ -13,7 +13,7 @@ const AdmissionCTA = () => {
             <div className="absolute inset-0 bg-primary bg-opacity-50"></div>
 
             <div className="relative container mx-auto px-6 text-center text-white">
-                <h2 className="text-4xl font-bold">Join the Mayoor Family</h2>
+                <h2 className="text-4xl font-bold">Admissions Open in Jodhpur</h2>
 
                 <p className="mt-4 max-w-2xl mx-auto">
                     We are now accepting applications for the upcoming academic year.

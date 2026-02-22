@@ -41,7 +41,7 @@ const Curriculum = () => {
         {/* Section Heading */}
         <div className="text-center max-w-2xl mx-auto">
           <FadeUp delay={0.2}><span className="text-primary font-semibold">OUR CURRICULUM</span></FadeUp>
-          <FadeUp delay={0.2}><h2 className="text-4xl font-bold mt-2 text-text-light-primary">A Journey of Lifelong Learning</h2></FadeUp>
+          <FadeUp delay={0.2}><h2 className="text-4xl font-bold mt-2 text-text-light-primary">CBSE Curriculum & Academic Excellence</h2></FadeUp>
           <FadeUp delay={0.2}><p className="mt-4 text-text-light-secondary">
             Our academic programs are designed to be comprehensive and challenging,
             catering to the developmental needs of students at each stage.

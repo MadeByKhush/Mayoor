@@ -17,7 +17,7 @@ const Facilities = () => {
           <div className="text-center max-w-2xl mx-auto">
             <span className="text-primary font-semibold">OUR FACILITIES</span>
             <h2 className="text-4xl font-bold mt-2 text-text-light-primary">
-              The Magical Vibes of Mayoor
+              Why Choose Mayoor International School
             </h2>
             <p className="mt-4 text-text-light-secondary">
               We offer state-of-the-art facilities that support a well-rounded education and holistic development.

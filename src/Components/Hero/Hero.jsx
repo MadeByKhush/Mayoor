@@ -24,7 +24,7 @@ const Hero = () => {
                 playsInline
             ></video> */}
 
-            <img src={image} alt="Hero" className="absolute top-0 left-0 w-full h-full object-cover  min-w-[120%] min-h-[120%] -translate-x-[-15px] -translate-y-[130px] " />
+            <img src={image} alt="Mayoor International School campus in Jodhpur" className="absolute top-0 left-0 w-full h-full object-cover  min-w-[120%] min-h-[120%] -translate-x-[-15px] -translate-y-[130px] " />
 
             {/* Dark Overlay */}
             <div className="absolute inset-0 bg-gradient-to-r from-black via-black/30 to-black/10"></div>
@@ -33,8 +33,12 @@ const Hero = () => {
             <div className="relative container mx-auto px-6 h-full flex flex-col justify-center text-white">
                 <SlideRight delay={1}>
                     <h1 className="text-5xl md:text-6xl font-bold leading-tight max-w-2xl">
-                        Nurturing Young Minds for a Brighter Future
+                        Mayoor International School, Jodhpur
                     </h1>
+
+                    <h2 className="mt-4 text-2xl font-semibold max-w-xl">
+                        Nurturing Young Minds for a Brighter Future
+                    </h2>
 
                     <p className="mt-4 text-lg max-w-xl">
                         At Mayoor, we provide a stimulating environment where students can
